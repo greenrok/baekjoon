@@ -1,6 +1,3 @@
-from re import A
-
-
 x, y = map(int, input().split())
 
 # yak_list = []
