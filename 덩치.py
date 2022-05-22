@@ -2,8 +2,8 @@ n = int(input())
 
 list = []
 for _ in range(n):
-    n, m = map(int, input().split())
-    list.append((n,m))
+    a, b = map(int, input().split())
+    list.append((a,b))
 
 # list에 튜플로 추가
 # list = [(55, 185), (58, 183), (88, 186), (60, 175), (46, 155)]
