@@ -16,15 +16,22 @@ int main()
         cin >> str[i];
     }
 
-    if(N==1) {
-        for(i=0; i<str[0].length(); i++) {
+    if (N == 1)
+    {
+        for (i = 0; i < str[0].length(); i++)
+        {
             cout << str[0][i];
         }
-    } else {
-        for(i=0; i<str[0].length(); i++) {
+    }
+    else
+    {
+        for (i = 0; i < str[0].length(); i++)
+        {
             c = str[0][i];
-            for(int j=0; j<N; j++) {
-                if(c != str[j][i]) {
+            for (int j = 0; j < N; j++)
+            {
+                if (c != str[j][i])
+                {
                     c = '?';
                     break;
                 }
